@@ -1,0 +1,40 @@
+.posts-container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #333;
+}
+
+.error {
+    color: red;
+}
+
+.posts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.details-button {
+    background-color: #707070;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.details-button:hover {
+    background-color: #494949;
+}
